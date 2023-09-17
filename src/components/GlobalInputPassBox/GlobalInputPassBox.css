@@ -1,0 +1,23 @@
+.global-input-pass {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+}
+.global-input-pass h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-color-02);
+  text-transform: capitalize;
+}
+.global-input-pass .input-box div::after,
+.global-input-pass .input-box div::after,
+.global-input-pass .input-box div::before {
+  all: unset !important;
+}
+.global-input-pass .input-box {
+  border: 1px solid var(--text-color-03);
+  padding: 8px 16px;
+  border-radius: 4px;
+}

@@ -1,0 +1,59 @@
+.register-box {
+  background: var(--bg-main);
+  height: 100vh;
+}
+.register-box .container-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.register-box .container-box .content {
+  width: 100%;
+  max-width: 476px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 6px;
+  padding: 60px 20px;
+}
+.register-box .container-box .content h2 {
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 130%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--text-color-01);
+  margin-bottom: 10px;
+}
+.register-box .container-box .content h6 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--text-color-02);
+  margin-bottom: 0px;
+}
+.register-box .container-box .box {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.register-box .container-box .box span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  color: var(--text-color-03);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.register-box .container-box .box Button.submit {
+  background-color: var(--text-color-03);
+  margin: auto;
+  width: 100%;
+  padding: 13px;
+  color: var(--text-color-04);
+}
